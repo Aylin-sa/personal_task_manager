@@ -1,4 +1,11 @@
+from tasks import task
+
 name = input("whats your name : ")
 print("welcome")
-task = input("please enter a task you are allow to enter more then one task : ")
-print(task)
+
+for i in task:
+    task_1 = i["task_1"]
+
+t = input(task_1)
+
+print(f"{name} your task is {t}")

@@ -34,13 +34,13 @@ print("welcome")
 for i in task:
     task_1 = i["task_1"]
 
-t = input(task_1)
+task_task = input(task_1)
 
 
 
-print(f"{name} your task is {t} and your priority is {pleas_enter_priority}")
+print(f"{name} your task is {task_task} and your priority is {pleas_enter_priority}")
 
 with open("task.txt", "a") as a:
-    a.write(f"{name} your task is {t} your priority is {pleas_enter_priority}\n")
+    a.write(f"{name} your task is {task_task} your priority is {pleas_enter_priority}\n")
 
 

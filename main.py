@@ -20,11 +20,13 @@ while True:
             print("worng")
             continue
  
-        
+
 
 else : 
     print("ok")
 
+
+pleas_enter_priority = input("please enter a priority (mediom , high, low : )")
 
 name = input("whats your name : ")
 print("welcome")
@@ -34,7 +36,11 @@ for i in task:
 
 t = input(task_1)
 
-print(f"{name} your task is {t}")
+
+
+print(f"{name} your task is {t} and your priority is {pleas_enter_priority}")
 
 with open("task.txt", "a") as a:
-    a.write(f"{name} your task is {t}\n")
+    a.write(f"{name} your task is {t} your priority is {pleas_enter_priority}\n")
+
+
